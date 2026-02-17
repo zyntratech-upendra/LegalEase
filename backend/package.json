@@ -1,0 +1,25 @@
+{
+  "name": "legalease-backend",
+  "version": "1.0.0",
+  "description": "LegalEase Backend Server - Express API for legal document scanning and AI chat",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "multer": "^2.0.2",
+    "pdf-parse": "^2.4.5",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "author": "LegalEase Team",
+  "license": "MIT"
+}

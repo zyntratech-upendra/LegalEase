@@ -1,30 +1,23 @@
 {
-  "name": "legalease-sem",
+  "name": "legalease-frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "LegalEase Frontend - React + Vite application for legal assistance",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "node server.js",
-    "dev:all": "concurrently \"npm run dev\" \"npm run server\""
+    "mock-server": "node mock-server.js"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
-    "cors": "^2.8.6",
-    "dotenv": "^17.3.1",
-    "express": "^5.2.1",
     "firebase": "^12.9.0",
     "framer-motion": "^12.34.0",
     "lucide-react": "^0.564.0",
-    "multer": "^2.0.2",
-    "pdf-parse": "^2.4.5",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-router-dom": "^7.13.0",
-    "tesseract.js": "^7.0.0"
+    "react-router-dom": "^7.13.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
