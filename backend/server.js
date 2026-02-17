@@ -59,11 +59,11 @@ const scanGenAI = new GoogleGenerativeAI(SCAN_KEY);
 
 // ─── Model Fallback Configuration ───────────────────────────────────────────
 const MODEL_CANDIDATES = [
+    'gemini-2.5-flash',
     'gemini-2.0-flash',
-    'gemini-1.5-flash',
-    'gemini-1.5-flash-latest',
-    'gemini-1.5-flash-001',
-    'gemini-flash-latest',
+    'gemini-2.0-flash-001',
+    'gemini-2.0-flash-lite-001',
+    'gemini-2.5-flash-lite',
 ];
 
 let ACTIVE_CHAT_MODEL = null;
