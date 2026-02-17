@@ -1,6 +1,6 @@
 // Utility functions for calling the LegalEase backend API
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+const API_BASE_URL = (import.meta.env.VITE_API_URL || 'http://localhost:3001').replace(/\/$/, '');
 
 // ─── Scan Document (Smart Scanner — file upload to backend) ─────────────────
 export const scanDocument = async (file) => {
